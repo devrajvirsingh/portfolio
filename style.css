@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Tilt+Prism&display=swap");
+
+body{
+  font-family: 'Merriweather', serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.myimg {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  object-fit: scale-down;
+  border-radius: 100%;
+}
+.myimg1 {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  object-fit: contain;
+  border-radius: 10%;
+}
+
+.mybio {
+  margin-top: 135px !important;
+}
+.box {
+  box-shadow: 0px 0px 8px 1px grey;
+  height: auto;
+  width: 263px;
+  border-radius: 20px;
+}
+.box img {
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;*/
+  border-radius: 20px;
+}
+
+.mybtn a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contactbtn a {
+  text-decoration: none;
+  color: white;
+  /* font-weight: light; */
+  font-size: 20px;
+}
+.webname {
+  padding: 10px;
+}
+.footcont {
+  color: black;
+  height: 50px;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 25px;
+  box-shadow: 0px 0px 8px 1px grey;
+}
+.contactcont h5 a{
+  text-decoration: none;
+  color: black;
+}
+
+form{
+  margin: 40px;
+  padding: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgb(50, 49, 49);
+}
+.navul li a:hover {
+  border-bottom: 1px solid black;
+}
+.space{
+  letter-spacing: 4px;
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+  .box {
+    width: 240px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  .box {
+    width: 240px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+  .boxgrid {
+    width: 40%;
+    margin: 30px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+  .boxgrid {
+    width: 40%;
+    margin: 30px;
+  }
+  .myimgabout{
+    width: 100%;
+    margin: auto;
+  }
+  .myabout{
+    width: 100%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+  .boxgrid {
+    width: 50%;
+    margin: 30px;
+  }
+  .imgcontt {
+    width: 60%;
+    margin: 5px !important;
+  }
+  .myimgabout{
+    width: 100%;
+    margin: auto;
+  }
+  .myabout{
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 299px) and (max-width: 499px) {
+  .boxgrid {
+    width: 70%;
+    margin: 30px;
+  }
+  .imgcontt {
+    width: 80%;
+    margin: 5px !important;
+  }
+  .myimgabout{
+    width: 100%;
+    margin: auto;
+  }
+  .myabout{
+    width: 100%;
+    margin: auto;
+  }
+}
+
+
+
+/* TESTIMONIALS */
+
+.testimonials{
+height: 100%;
+margin-top: 200px;
+}
+
+.card{
+
+  border: none;
+  border-radius: 10px;
+  height: 100%;
+
+}
+span{
+  color: #db558d;;
+  
+}
+
+.about{
+
+  background-color: #940641;;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border:0;
+
+}
+
+.col-md-4{
+  margin-bottom: 100px;
+}
+
+.about img{
+  margin-top: -68px;
+  border: 5px solid white;
+}
+
+
+.about a{
+  text-decoration: none;
+  color: white;
+}
+/* @media(max-width:768px){
+  .card{
+      height: 300px;
+  }
+} */
